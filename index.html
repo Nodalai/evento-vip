@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AIvent - AI Event, Conference and Meetup Website Template</title>
+    <link rel="icon" href="images/icon.webp" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="AIvent" name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/vendors.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+
+</head>
+
+<body class="dark-scheme">
+
+    <div id="wrapper">
+
+        <div class="float-text show-on-scroll">
+            <span><a href="#">Scroll to top</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+
+        <!-- page preloader begin -->
+        <div id="de-loader"></div>
+        <!-- page preloader close -->
+
+        <header class="transparent">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex">
+                            <div class="de-flex-col">
+                                <!-- logo begin -->
+                                <div id="logo">
+                                    <a href="index.html">
+                                        <img class="logo-main" src="images/logo.webp" alt="" >
+                                        <img class="logo-scroll" src="images/logo.webp" alt="" >
+                                        <img class="logo-mobile" src="images/logo.webp" alt="" >
+                                    </a>
+                                </div>
+                                <!-- logo close -->
+                            </div>
+
+                            <div class="de-flex-col">
+                                <div class="de-flex-col header-col-mid">
+                                    <ul id="mainmenu">
+                                        <li><a class="menu-item" href="#section-about">Cumbre</a></li>
+                                        <li><a class="menu-item" href="#section-why-attend">Beneficios</a></li>
+                                        <li><a class="menu-item" href="#section-speakers">Speakers</a></li>
+                                        <li><a class="menu-item" href="#section-schedule">Horario</a></li>
+                                        <li><a class="menu-item" href="#section-tickets">Tickets</a></li>
+                                        <li><a class="menu-item" href="#section-venue">Ubicación</a></li>
+                                        <li><a class="menu-item" href="#section-faq">FAQ</a></li>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="de-flex-col">
+                                <a class="btn-main fx-slide w-100" href="tickets.html"><span>Buy Tickets</span></a>
+
+                                <div class="menu_side_area">
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="section-hero" class="section-dark no-top no-bottom text-light jarallax relative mh-800" data-video-src="mp4:video/2.mp4">
+            <div class="gradient-edge-top op-6 h-50 color"></div>
+            <div class="gradient-edge-bottom"></div>
+            <div class="sw-overlay op-8"></div>
+            <div class="abs abs-centered z-2 w-80">
+                <div class="container wow scaleIn" data-wow-duration="3s">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div class="subtitle">Aumenta ingresos y reduce errores con IA</div>
+                            <h1 class="fs-120 text-uppercase fs-sm-12vw mb-4 lh-1">AI Summit 2025</h1>
+
+                            <div class="d-block d-md-flex justify-content-center">
+                                <div class="d-flex justify-content-center align-items-center mx-4">
+                                    <i class="fa fa-calendar id-color me-3"></i>
+                                    <h4 class="mb-0">Octubre 15, 2025</h4>
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center mx-4">
+                                    <i class="fa fa-location-pin id-color me-3"></i>
+                                    <h4 class="mb-0">Guayaquil</h4>
+                                </div>
+                            </div>
+
+                            <div class="spacer-single"></div>
+
+                            <a class="btn-main mx-2 fx-slide" href="#section-tickets"><span>Get Tickets</span></a>
+                            <a class="btn-main btn-line mx-2 fx-slide" href="#section-schedule"><span>Ver Horario</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="abs w-100 start-0 bottom-0 z-3">
+                <div class="container">
+                    <div class="sm-hide border-white-op-3 p-40 py-4 rounded-1 bg-blur relative overflow-hidden wow fadeInUp">
+                        <div class="gradient-edge-bottom color start-0 h-50 op-5"></div>
+                        <div class="row g-4 justify-content-between align-items-center relative z-2">
+                            <div class="col-lg-3">
+                                <h3 class="mb-0">¡Ya Disponible!</h3>
+                                <h4 class="mb-0">Reserva tu lugar Ahora</h4>
+                            </div>
+                            <div class="col-lg-4">
+                                <div id="defaultCountdown" class="pt-2"></div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="d-flex">
+                                    <i class="fs-60 icofont-google-map id-color"></i>
+                                    <div class="ms-3">
+                                        <h4 class="mb-0">Wyndham Guayaquil<br>Puerto Santa Ana</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<section id="section-about" class="bg-dark section-dark text-light">
+  <div class="container">
+    <div class="row  gx-5 align-items-center justify-content-between">
+      <div class="col-lg-6">
+        <div class="me-lg-5 pe-lg-5 py-5 my-5">
+          <div class="subtitle wow fadeInUp" data-wow-delay=".2s">Acerca de la Cumbre</div>
+          <h2 class="wow fadeInUp" data-wow-delay=".4s">AI Executive Summit</h2>
+          <p class="wow fadeInUp" data-wow-delay=".6s">Está dirigido a empresarios, líderes, emprendedores y profesionales que buscan implementar IA de forma práctica en sus negocios.</p>
+          <p class="wow fadeInUp" data-wow-delay=".8s">Esta exclusiva cumbre te ayudará a impulsar tus negocios, abordando temas clave como:</p>
+
+          <ul class="ul-check">
+            <li class="wow fadeInUp" data-wow-delay=".9s">Aprender a automatizar tareas, generar leads con IA y reducir costos operativos <strong>hasta un 60%</strong>.</li>
+            <li class="wow fadeInUp" data-wow-delay=".9s">Cómo <strong>aumentar tus ventas</strong> con inteligencia artificial personalizada que entiende a tu cliente.</li>
+            <li class="wow fadeInUp" data-wow-delay=".9s">Cómo <strong>prevenir fraudes y errores costosos</strong> usando IA de última generación.</li>
+            <li class="wow fadeInUp" data-wow-delay=".9s">Cómo <strong>ahorrar tiempo y dinero</strong> automatizando tareas clave en tu operación.</li>
+            <li class="wow fadeInUp" data-wow-delay=".9s">Cómo <strong>formar y liderar equipos</strong> preparados para para crecer en esta nueva era.</li>
+            <li class="wow fadeInUp" data-wow-delay=".10s"><strong>Networking de alto perfil </strong>con empresarios asistentes, representantes de NVIDIA, OpenAI, Microsoft, Telconet, RF Code y más.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="wow scaleIn">
+          <img src="images/misc/c1.webp" class="w-100 rotate-animation" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="section-dark p-0" aria-label="section">
+            <div class="bg-color text-light d-flex py-4 lh-1 rot-2">
+              <div class="de-marquee-list-1 wow fadeInLeft" data-wow-duration="2s">
+                <span class="fs-60 mx-3">Networking de Alto Perfil</span>
+                <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Fidelización Avanzada</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Atención masiva 24/7</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Ventas Inteligentes</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Equipos con ADN IA</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Ingeniería de IA</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+              </div>
+            </div>
+
+            <div class="bg-color-2 text-light d-flex py-4 lh-1 rot-min-1 mt-min-20">
+              <div class="de-marquee-list-2 wow fadeInRight" data-wow-duration="3s">
+                <span class="fs-60 mx-3">Networking de Alto Perfil</span>
+                <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Fidelización Avanzada</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Atención masiva 24/7</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Ventas Inteligentes</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Equipos con ADN IA</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+                <span class="fs-60 mx-3">Ingeniería de IA</span>
+                 <span class="fs-60 mx-3 op-2">/</span>
+              </div>
+            </div>
+        </section>
+
+        <section id="section-why-attend" class="bg-dark section-dark text-light">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="subtitle wow fadeInUp mb-3">Por qué asistir</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Lo Que Ganarás</h2>
+                        <p class="lead mb-0 wow fadeInUp">Descubrirás cómo pensar y actuar estratégicamente, al nivel de los líderes que están revolucionando industrias con IA avanzada en áreas como:</p>
+                    </div>
+                </div>
+
+                <div class="spacer-single"></div>
+
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>Ventas Inteligentes</h4>
+                                        <p class="mb-0">Anticipa deseos y comportamientos de tus clientes, asegura el proceso de ventas de la A a la Z.</p>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/s3.webp" class="w-100 hover-scale-1-1" alt="">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>Prevención de pérdidas</h4>
+                                        <p class="mb-0">Evita fraudes, errores y pérdidas con modelos predictivos de última generación basados en IA.</p>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/s4.webp" class="w-100 hover-scale-1-1" alt="">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>Atención masiva 24/7</h4>
+                                        <p class="mb-0">Multiplica tu rentabilidad operativa por 100 atendiendo cientos de clientes 24/7 con Ingeniería de ÍA.</p>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/s5.webp" class="w-100 hover-scale-1-1" alt="">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>Selección de profesionales</h4>
+                                        <p class="mb-0">Forma equipos ágiles que entienden, aplican y crecen con inteligencia artificial en su ADN. </p>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/s6.webp" class="w-100 hover-scale-1-1" alt="">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>Fidelización Avanzada</h4>
+                                        <p class="mb-0">Ofrece servicios a medida y fideliza con IA que aprende del comportamiento de tu cliente.</p>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/s7.webp" class="w-100 hover-scale-1-1" alt="">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="hover">
+                            <div class="bg-dark-2 relative rounded-1 overflow-hidden hover-bg-color hover-text-light wow scale-in-mask">
+                                <div class="abs p-40 bottom-0 z-2">
+                                    <div class="relative wow fadeInUp">
+                                        <h4>Networking de Alto Perfil</h4>
+                                        <p class="mb-0">Conectando con referentes de la industria como: NVIDIA, Microsoft y  líderes de alto perfil empresarial.</p>
+                                    </div>
+                                </div>
+                                <div class="gradient-edge-bottom h-100"></div>
+                                <img src="images/misc/s8.webp" class="w-100 hover-scale-1-1" alt="">
+                                <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark section-dark text-light pt-80 relative jarallax" aria-label="section">
+            <img src="images/background/2.webp" class="jarallax-img" alt="">
+            <div class="gradient-edge-top"></div>
+            <div class="gradient-edge-bottom"></div>
+            <div class="sw-overlay op-8"></div>
+            <div class="container relative z-4">
+                <div class="row align-items-center g-5">
+                    <div class="col-md-4">
+                        <div class="relative w-100 d-inline-block pe-5">
+                            <div class="abs bg-color w-80px h-80px rounded-1 text-center end-0 z-2 wow scaleIn">
+                                <i class="icofont-quote-left text-white fs-40 d-block pt-3"></i>
+                            </div>
+                            <img src="images/misc/s9.webp" class="w-100 rounded-1 wow scale-in-mask" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-8">
+                        <h3 class="fs-32 mb-4 wow fadeInUp">“AI SUMMIT es el único evento en Ecuador que une liderazgo empresarial, soluciones de Google Cloud y automatización real para empresas que están escalando su éxito”</h3>
+
+                        <span>Xavier Santoro | CTO de Business IT</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-speakers" class="bg-dark section-dark text-light">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-6 relative z-3">
+                          <div class="text-center">
+                              <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Speakers</div>
+                              <h2 class="wow fadeInUp" data-wow-delay=".2s">Speakers Destacados</h2>
+                              <p class="lead wow fadeInUp">Estarán junto a nosotros líderes que dominan el presente de la IA y tienen la llave para transformar tu negocio.</p>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="hover relative rounded-1 overflow-hidden wow fadeIn scale-in-mask">
+                            <img src="images/team/Christina-Serrano-Speaker.webp" class="w-100 hover-scale-1-1" alt="">
+                            <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            <div class="abs w-100 start-0 bottom-0 z-3">
+                                <div class="bg-blur speaker-keynote">
+                                    <h3 class="mb-0">Christyna Serrano</h3>
+                                    <span>Stanford University, School of Business</span>
+                                </div>
+                                <div class="gradient-edge-bottom h-100 op-8"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="hover relative rounded-1 overflow-hidden wow fadeIn scale-in-mask">
+                            <img src="images/team/Yesith-Cardenas-Speaker.webp" class="w-100 hover-scale-1-1" alt="">
+                            <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            <div class="abs w-100 start-0 bottom-0 z-3">
+                                <div class="bg-blur speaker-keynote">
+                                    <h3 class="mb-0">Yesith Cárdenas</h3>
+                                    <span>Regional Director LATAM & Caribbean</span>
+                                </div>
+                                <div class="gradient-edge-bottom h-100 op-8"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="hover relative rounded-1 overflow-hidden wow fadeIn scale-in-mask">
+                            <img src="images/team/armando-viteri-Speaker.webp" class="w-100 hover-scale-1-1" alt="">
+                            <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            <div class="abs w-100 start-0 bottom-0 z-3">
+                                <div class="bg-blur speaker-keynote">
+                                    <h3 class="mb-0">Armando Viteri</h3>
+                                    <span>CEO, RF Code – Microsoft Ecosystem</span>
+                                </div>
+                                <div class="gradient-edge-bottom h-100 op-8"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="hover relative rounded-1 overflow-hidden wow fadeIn scale-in-mask">
+                            <img src="images/team/Desnise-Turley-Speaker.webp" class="w-100 hover-scale-1-1" alt="">
+                            <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            <div class="abs w-100 start-0 bottom-0 z-3">
+                                <div class="bg-blur speaker-keynote">
+                                    <h3 class="mb-0">Denise Turley</h3>
+                                    <span>AI Adoption Strategist & Business.</span>
+                                </div>
+                                <div class="gradient-edge-bottom h-100 op-8"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="hover relative rounded-1 overflow-hidden wow fadeIn scale-in-mask">
+                            <img src="images/team/Ricardo-Baeza-Speaker.webp" class="w-100 hover-scale-1-1" alt="">
+                            <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            <div class="abs w-100 start-0 bottom-0 z-3">
+                                <div class="bg-blur speaker-keynote">
+                                    <h3 class="mb-0">Ricardo Baeza-Yates</h3>
+                                    <span>Scientific Advisor, California</span>
+                                </div>
+                                <div class="gradient-edge-bottom h-100 op-8"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="hover relative rounded-1 overflow-hidden wow fadeIn scale-in-mask">
+                            <img src="images/team/Xavier-Santoro-Speaker.webp" class="w-100 hover-scale-1-1" alt="">
+                            <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            <div class="abs w-100 start-0 bottom-0 z-3">
+                                <div class="bg-blur speaker-keynote">
+                                    <h3 class="mb-0">Xavier Santoro</h3>
+                                    <span>Consultant in AI-Driven Transformation</span>
+                                </div>
+                                <div class="gradient-edge-bottom h-100 op-8"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="hover relative rounded-1 overflow-hidden wow fadeIn scale-in-mask">
+                            <img src="images/team/Clara-Lin-Hawking.webp" class="w-100 hover-scale-1-1" alt="">
+                            <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            <div class="abs w-100 start-0 bottom-0 z-3">
+                                <div class="bg-blur speaker-keynote">
+                                    <h3 class="mb-0">Clara Lin Hawking</h3>
+                                    <span>Global Award Winner</span>
+                                </div>
+                                <div class="gradient-edge-bottom h-100 op-8"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="hover relative rounded-1 overflow-hidden wow fadeIn scale-in-mask">
+                            <img src="images/team/Servio-Lima-Speaker.webp" class="w-100 hover-scale-1-1" alt="">
+                            <div class="abs w-100 h-100 start-0 top-0 hover-op-1 radial-gradient-color"></div>
+                            <div class="abs w-100 start-0 bottom-0 z-3">
+                                <div class="bg-blur speaker-keynote">
+                                    <h3 class="mb-0">Servio Lima</h3>
+                                    <span>TELCONET & CMU LATAM</span>
+                                </div>
+                                <div class="gradient-edge-bottom h-100 op-8"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark section-dark pt-80 relative jarallax" aria-label="section">
+            <img src="images/background/1.webp" class="jarallax-img" alt="">
+            <div class="gradient-edge-top"></div>
+            <div class="gradient-edge-bottom"></div>
+            <div class="sw-overlay op-8"></div>
+            <div class="container">
+                <div class="row g-4">
+
+                    <div class="col-md-12 wow fadeInUp">
+                        <div class="owl-6 no-alpha owl-carousel owl-theme wow mask-right">
+                            <img src="images/logo-light/1.webp" class="w-100 px-4" alt="">
+                            <img src="images/logo-light/2.webp" class="w-100 px-4" alt="">
+                            <img src="images/logo-light/3.webp" class="w-100 px-4" alt="">
+                            <img src="images/logo-light/4.webp" class="w-100 px-4" alt="">
+                            <img src="images/logo-light/5.webp" class="w-100 px-4" alt="">
+                            <img src="images/logo-light/6.webp" class="w-100 px-4" alt="">
+                            <img src="images/logo-light/7.webp" class="w-100 px-4" alt="">
+                            <img src="images/logo-light/8.webp" class="w-100 px-4" alt="">
+                            <img src="images/logo-light/9.webp" class="w-100 px-4" alt="">
+                            <img src="images/logo-light/10.webp" class="w-100 px-4" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-schedule" class="bg-dark section-dark text-light">
+            <div class="container">
+              <div class="row g-4 gx-5 justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Cronograma del Evento</div>
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s">Lo que Aprenderás</h2>
+                </div>
+              </div>
+              <div class="row g-4 gx-5 justify-content-center wow fadeInUp">
+                <div class="col-lg-12">
+                    <div class="de-tab plain">
+                        <div class="text-center">
+                        <ul class="d-tab-nav mb-4 pb-4 d-inline-block">
+                            <li class="active-tab">
+                                <h3>AI Summit 2025</h3>
+                                15 de octubre
+                            </li>
+                        </ul>
+                        <ul class="d-tab-content pt-3 wow fadeInUp">   
+                            <!-- day 1 -->                        
+                            <li>
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            08:45 – 09:00 AM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/Andres-Campoverde-Organizador.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Andrés Campoverde</h5>
+                                                    <p class="small">
+                                                      Director & Organizador<br>
+                                                      Clara Lin Hawking,<br>
+                                                      Co-Founder & Executive<br>
+                                                      Director.<br>
+                                                      </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Palabras de Bienvenida</h3>
+                                            <p class="fs-15 mb-0">Como organizador general del AI Summit, dará unas palabras de apertura para agradecer la presencia de los asistentes y dar inicio oficial a esta jornada de innovación y liderazgo en inteligencia artificial.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            09:00 – 09:20 AM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/armando-viteri-Speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Armando Viteri (EE. UU.)</h5>
+                                                    Generative AI strategic<br> consulting and technology <br>implementation.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Caio: nuevo rol del Director de IA Empresarial</h3>
+                                            <p class="fs-15 mb-0">Cuenta con 25 años de experiencia en gestión ejecutiva en los mercados de computación empresarial, redes y servicios. Actualmente es presidente y CEO de RF Code..</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            09:20 – 09:45 AM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/Maria-Paz-Alvarez -Speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Maria Paz Alvarez</h5>
+                                                    Business Growth Consultant,<br> Partner Google Ecuador
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>La IA en la empresa</h3>
+                                            <p class="fs-15 mb-0">Tu Marketing, Multiplicado por la IA de Google.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            09:50 – 10:15 AM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/Yesith-Cardenas-Speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Yesith Cárdenas</h5>
+                                                    Regional Enterprise Sales<br> Manager, AWS (Colombia)
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>La IA en la empresa: tendencias y desafíos</h3>
+                                            <p class="fs-15 mb-0">Presentación de las tendencias actuales en IA y sus implicaciones para el sector financiero.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            10:20 – 10:55 AM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/Gisella-Montalvo-Speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Gisella Montalvo</h5>
+                                                    CITEC, UNESCO LATAM, Clúster <br>Transformación Digital Guayaquil
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Nuevos desafíos del profesional de IA</h3>
+                                            <p class="fs-15 mb-0">Panel de discusión sobre el papel del liderazgo en la implementación de IA. Foro CAIO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            11:00 – 11:35 AM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/misc/s8.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Networking Time</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Networking Time</h3>
+                                            <p class="fs-15 mb-0">Tiempo de conexión entre asistentes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            11:40 – 11:55 AM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/Xavier-Santoro-Speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Xavier Santoro</h5>
+                                                    Business IT<br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Sistemas multiagente con AI generativa</h3>
+                                            <p class="fs-15 mb-0">Demostraciones de productos y soluciones de IA. Showcases</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            12:00 – 12:40 PM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/Desnise-Turley-Speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Dra. Denise Turley</h5>
+                                                    VP of Technology, <br>Visionary AI Leader
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>AI Commerce: la IA y su impacto en el comercio </h3>
+                                            <p class="fs-15 mb-0">Keynote Speaker, Advisory Board Member, Champion for Women in AI, VP Corporate Systems. Conferencia presencial</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            12:45 – 01:00 PM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/speaker-sorpresa.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Speaker Sorpresa</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Cómo construir un rol ejecutivo en AI</h3>
+                                            <p class="fs-15 mb-0">Desarrollo profesional en inteligencia artificial a nivel ejecutivo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            01:00 – 02:00 PM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/news/s3.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Launch Tme</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Launch Time</h3>
+                                            <p class="fs-15 mb-0">Almuerzo para los asistentes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            02:00 – 02:15 PM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/open-ai-speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Open AI</h5>
+                                                    Speaker
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Generative AI: strategic consulting and technology implementation</h3>
+                                            <p class="fs-15 mb-0">Consultoría estratégica e implementación tecnológica en IA generativa. Conferencia Virtual.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            02:20 – 02:45 PM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/microsoft-speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Microsoft</h5>
+                                                    Speaker
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Cómo la IA puede mejorar la toma de decisiones</h3>
+                                            <p class="fs-15 mb-0">Aplicación de IA para mejorar procesos de toma de decisiones empresariales.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            02:50 – 03:35 PM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/nvidia-speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">NVIDIA</h5>
+                                                    Speaker
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Secretos de la IA Corporativa</h3>
+                                            <p class="fs-15 mb-0">El ecosistema de Ingeniería de IA secreto para empresas que escalan de manera exitosa.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            03:40 – 03:55 PM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/Christina-Serrano-Speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Christyna Serrano</h5>
+                                                    Stanford University
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Fire chat: educación de negocios online y IA</h3>
+                                            <p class="fs-15 mb-0">Fire chat virtual - Directora del programa Early Career Online Business Education en Stanford.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            04:00 – 04:30 PM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/team/Servio-Lima-Speaker.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Servio lima</h5>
+                                                    Telconet, Latam Alumni <br>Leadership Council Member, <br>Carnegie Mellon University
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Conferencia Técnica</h3>
+                                            <p class="fs-15 mb-0">Conferencia presencial.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+
+                                <!-- schedule item begin -->
+                                <div class="border-white-bottom-op-2 pb-5 mb-5">
+                                    <div class="row g-4 align-items-center">
+                                        <div class="col-md-2">
+                                            04:35 – 05:30 PM
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="d-flex align-items-center">
+                                                <img src="images/misc/s8.webp" class="w-100px rounded-1 me-4" alt="">
+                                                <div>
+                                                    <h5 class="mb-0">Networking Time</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h3>Networking cóctel</h3>
+                                            <p class="fs-15 mb-0">Espacio de cierre e interacción entre asistentes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- schedule item end -->
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="section-tickets" class="bg-dark section-dark text-light pt-80 relative jarallax" aria-label="section">
+            <img src="images/background/4.webp" class="jarallax-img" alt="">
+            <div class="gradient-edge-top"></div>
+            <div class="gradient-edge-bottom"></div>
+            <div class="sw-overlay op-5"></div>
+
+            <div class="container relative z-2">
+                <div class="row g-4 gx-5 justify-content-center">
+                  <div class="col-lg-6 text-center">
+                      <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Opciones de Acceso</div>
+                      <h2 class="wow fadeInUp" data-wow-delay=".2s">Elige tu Tipo de Acceso</h2>
+                      <p class="lead wow fadeInUp" data-wow-delay=".4s">Seleccione el boleto perfecto para sus necesidades y obtenga acceso a sesiones exclusivas, talleres y más.</p>
+                  </div>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="owl-carousel owl-theme owl-2-dots wow mask-right">
+                            <!-- ticket item begin -->
+                            <div class="item">
+                                <div class="relative overflow-hidden h-100 border-white-op-3 rounded-1 bg-blur">
+                                    <div class="gradient-edge-bottom color op-5"></div>
+                                    <div class="p-40 relative z-2">
+                                        <div class="text-center">
+                                            <h2 class="fs-40 mb-0">VIP Pass</h2>
+                                            <h3 class="id-color mb-4">$70,00</h3>
+                                            <h4>Ideal para empresarios y profesionales <br>que buscan una experiencia completa. <br>Incluye:</h4>
+                                        </div>
+
+                                        <div class="border-white-bottom-op-2 mb-4"></div>
+
+                                        <ul class="ul-check mb-4">
+                                            <li>Acceso a todas las áreas del evento.</li>
+                                            <li>Workshop Break exclusivo el día del evento.</li>
+                                            <li>Material digital de conferencias.</li>
+                                            <li>Certificado acreditado (8 horas) con enlace automático a LinkedIn.</li>
+                                            <li>Beneficios exclusivos con nuestra red de aliados internacionales.</li>
+                                        </ul>
+
+                                        <a class="btn-main fx-slide w-100" href="tickets.html"><span>Buy Ticket</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ticket item end -->
+
+                            <!-- ticket item begin -->
+                            <div class="item">
+                                <div class="relative overflow-hidden h-100 border-white-op-3 rounded-1 bg-blur">
+                                    <div class="gradient-edge-bottom color op-5"></div>
+                                    <div class="p-40 relative z-2">
+                                        <div class="text-center">
+                                            <h2 class="fs-40 mb-0">Smart Pass</h2>
+                                            <h3 class="id-color mb-4">$40,00</h3>
+                                            <h4>Perfecto para asistentes enfocados <br>en contenido académico y networking. <br>Incluye:</h4>
+                                        </div>
+
+                                        <div class="border-white-bottom-op-2 mb-4"></div>
+
+                                        <ul class="ul-check mb-4">
+                                            <li>Acceso a todas las áreas del evento.</li>
+                                            <li>Material digital de conferencias.</li>
+                                            <li>Certificado acreditado (8 horas) con enlace automático a LinkedIn.</li>
+                                            <li>Beneficios con aliados internacionales.</li>
+                                        </ul>
+
+                                        <a class="btn-main fx-slide w-100" href="tickets.html"><span>Buy Ticket</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ticket item end -->
+
+                            <!-- ticket item begin -->
+                            <div class="item">
+                                <div class="relative overflow-hidden h-100 border-white-op-3 rounded-1 bg-blur">
+                                    <div class="gradient-edge-bottom color op-5"></div>
+                                    <div class="p-40 relative z-2">
+                                        <div class="text-center">
+                                            <h2 class="fs-40 mb-0">Gold Talk</h2>
+                                            <h3 class="id-color mb-4">$2.500 + IVA</h3>
+                                            <h4>Pensado para marcas que quieren <br>protagonismo absoluto en el evento. <br>Incluye:</h4>
+                                        </div>
+
+                                        <div class="border-white-bottom-op-2 mb-4"></div>
+
+                                        <ul class="ul-check mb-4">
+                                            <li>Branding exclusivo en salas del evento</li>
+                                            <li>Campaña de comunicación (antes, durante y después del evento)</li>
+                                            <li>Stand o activación de marca de 3×2 m</li>
+                                            <li>5 invitaciones corporativas al evento</li>
+                                            <li>Proyección de video corporativo (20 segundos)</li>
+                                            <li>Presencia en el escenario principal</li>
+                                            <li>Participación en la ronda de negocios</li>
+                                            <li>Acceso VIP al evento</li>
+                                        </ul>
+
+                                        <a class="btn-main fx-slide w-100" href="tickets.html"><span>Buy Ticket</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ticket item end -->
+
+                            <!-- ticket item begin -->
+                            <div class="item">
+                                <div class="relative overflow-hidden h-100 border-white-op-3 rounded-1 bg-blur">
+                                    <div class="gradient-edge-bottom color op-5"></div>
+                                    <div class="p-40 relative z-2">
+                                        <div class="text-center">
+                                            <h2 class="fs-40 mb-0">Silver Stand</h2>
+                                            <h3 class="id-color mb-4">$1.500 + IVA</h3>
+                                            <h4>Diseñado para empresas que buscan <br>visibilidad sólida y conexión comercial. <br>Incluye:</h4>
+                                        </div>
+
+                                        <div class="border-white-bottom-op-2 mb-4"></div>
+
+                                        <ul class="ul-check mb-4">
+                                            <li>Branding exclusivo en salas del evento</li>
+                                            <li>Campaña de comunicación (antes, durante y después del evento)</li>
+                                            <li>Stand o activación de marca de 2×2 m</li>
+                                            <li>3 invitaciones corporativas al evento</li>
+                                            <li>Proyección de video corporativo (15 segundos)</li>
+                                            <li>Participación en la ronda de negocios</li>
+                                            <li>Acceso VIP al evento</li>
+                                        </ul>
+
+                                        <a class="btn-main fx-slide w-100" href="tickets.html"><span>Buy Ticket</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ticket item end -->
+
+                            <!-- ticket item begin -->
+                            <div class="item">
+                                <div class="relative overflow-hidden h-100 border-white-op-3 rounded-1 bg-blur">
+                                    <div class="gradient-edge-bottom color op-5"></div>
+                                    <div class="p-40 relative z-2">
+                                        <div class="text-center">
+                                            <h2 class="fs-40 mb-0">Startup Stand</h2>
+                                            <h3 class="id-color mb-4">$500 + IVA</h3>
+                                            <h4>Ideal para startups que desean <br>iniciar su posicionamiento. <br>Incluye:</h4>
+                                        </div>
+
+                                        <div class="border-white-bottom-op-2 mb-4"></div>
+
+                                        <ul class="ul-check mb-4">
+                                            <li>Campaña de comunicación (antes, durante y después del evento)</li>
+                                            <li>Stand o activación de marca de 1×1 m.</li>
+                                            <li>2 invitaciones corporativas al evento.</li>
+                                            <li>Proyección de video corporativo (10 segundos).</li>
+                                            <li>Participación en la ronda de negocios.</li>
+                                            <li>Acceso VIP al evento.</li>
+                                        </ul>
+
+                                        <a class="btn-main fx-slide w-100" href="tickets.html"><span>Buy Ticket</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ticket item end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-venue" class="bg-dark section-dark text-light pt-80 relative jarallax" aria-label="section">
+          <div class="container relative z-2">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Event Location</div>
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s">Ubicación del Evento</h2>
+                    <p class="lead wow fadeInUp" data-wow-delay=".6s">Un espacio que inspira grandes ideas Wyndham Santa Ana, el corazón del AI Summit 2025.</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-sm-6">
+                    <img src="images/misc/l1.webp" class="w-100 rounded-1 wow scale-in-mask" alt="">
+                </div>
+
+                <div class="col-sm-6">
+                    <img src="images/misc/l2.webp" class="w-100 rounded-1 wow scale-in-mask" alt="">
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="col-lg-4 col-md-6 mb-sm-30">
+                    <div class="d-flex justify-content-center wow fadeInUp" data-wow-delay=".2s">
+                        <i class="fs-60 id-color icofont-google-map"></i>
+                        <div class="ms-3">
+                            <h4 class="mb-0">Dirección</h4>
+                            <p>Calle Numa Pompilio Llona S/N Ciudad del Río<br>
+                            Puerto Santa AnaCP 090306</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-sm-30">
+                    <div class="d-flex justify-content-center wow fadeInUp" data-wow-delay=".4s">
+                        <i class="fs-60 id-color icofont-phone"></i>
+                        <div class="ms-3">
+                            <h4 class="mb-0">WhatsApp</h4>
+                            <p>Call: +593 98 497 1076</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-sm-30">
+                    <div class="d-flex justify-content-center wow fadeInUp" data-wow-delay=".6s">
+                        <i class="fs-60 id-color icofont-envelope"></i>
+                        <div class="ms-3">
+                            <h4 class="mb-0">Email</h4>
+                            <p>consultas@aisummit.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section  id="section-faq" class="bg-dark section-dark text-light">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-5">
+                        <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Lo que todos necesitan saber</div>
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Frequently Asked Questions</h2>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="accordion s2 wow fadeInUp">
+                            <div class="accordion-section">
+                                <div class="accordion-section-title" data-tab="#accordion-a1">
+                                    ¿Cómo contacto a los organizadores para consultas especiales?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a1">
+                                    Para cualquier consulta, escríbenos a consultas@aisummit.com o llámanos al +593 98 497 1076 de lunes a viernes, de 9:00 a 17:00. También atendemos tus mensajes por WhatsApp en ese mismo número.
+                                </div>
+
+                                <div class="accordion-section-title" data-tab="#accordion-a2">
+                                    ¿Puedo transferir mi entrada a otra persona?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a2">
+                                    Para ceder tu pase, envía un correo a cobros@aisummit.com con los datos del titular original y del nuevo asistente. Una vez aprobada la transferencia, recibirás un nuevo Código QR a nombre del segundo participante.
+                                </div>
+
+                                <div class="accordion-section-title" data-tab="#accordion-a3">
+                                    ¿Cuál es la política de cancelación y reembolso?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a3">
+                                    – Hasta 30 días antes del evento: reembolso completo menos una tarifa administrativa de USD 50. – Entre 29 y 15 días antes: 50 % de reembolso. – Menos de 15 días o asistencia virtual: no hay reembolso, pero puedes cambiar tu pase a modalidad virtual sin costo adicional.
+                                </div>
+
+                                <div class="accordion-section-title" data-tab="#accordion-a4">
+                                    ¿Cómo me registro y cuál es el proceso de pago?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a4">
+                                    Para asegurar tu pase al AI Executive Summit 2025, sigue estos pasos:  
+
+                                    Completa el formulario de registro en la landing page con tus datos personales (nombre, empresa, correo, teléfono) y selecciona el tipo de entrada que deseas adquirir.
+
+                                    Tras enviar el formulario, recibirás un correo o mensaje de WhatsApp con un código de pago PayPhone exclusivo para tu transacción.
+
+                                    Abre la app PayPhone en tu celular, elige “Pagar con código” e ingresa el código que te enviamos junto con el monto correspondiente.
+
+                                    Confirma la operación y toma una captura de pantalla de tu comprobante de pago.
+
+                                    Envía esa captura al correo cobros@aisummit.com o al WhatsApp oficial +593 98 497 1076.
+
+                                    Una vez verificado el pago, te haremos llegar por correo tu código QR y todos los detalles de acceso al evento.
+
+                                    De este modo, tu registro quedará confirmado y estarás listo para vivir la experiencia del AI Summit 2025.
+                                </div>
+
+                                <div class="accordion-section-title" data-tab="#accordion-a5">
+                                    ¿Cómo inscribo mi startup para obtener un Startup Stand?
+                                </div>
+                                <div class="accordion-section-content" id="accordion-a5">
+                                    Para participar en la zona de startups: Envía un correo a projects@aisummit.com con tu pitch deck en PDF (máx. 5 slides).
+
+                                    Indica nombre del equipo, sector de mercado y propuesta de valor.
+
+                                    Plazo de postulación: hasta el 30 de septiembre de 2025.
+
+                                    Cupos limitados: se confirmará por orden de llegada y fit estratégico.
+                                </div>                                   
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark section-dark text-light pt-80 relative jarallax" aria-label="section">
+            <img src="images/background/3.webp" class="jarallax-img" alt="">
+            <div class="gradient-edge-top"></div>
+            <div class="gradient-edge-bottom"></div>
+            <div class="sw-overlay op-8"></div>
+          <div class="container relative z-2">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Manténgase informado</div>
+                    <h2 class="wow fadeInUp" data-wow-delay=".2s">Únase al Futuro Empresarial</h2>
+                    <p class="wow fadeInUp" data-wow-delay=".4s">
+                      Envíenos su correo electrónico para mantenerse informado. Compartiremos material Exclusivo para ayudarle a sacar el máximo partido de la Ingeniería de IA privada y personalizada empresarial.
+                    </p>
+                </div>
+            </div>
+
+            <form class="row justify-content-center">
+              <div class="col-md-6 col-lg-4 mb-3 wow fadeInUp" data-wow-delay=".6s">
+                <input type="email" class="form-control form-control-lg text-center" placeholder="Ingrese su dirección de email" required>
+              </div>
+              <div class="col-auto mb-3 wow fadeInUp" data-wow-delay=".6s">
+                <button type="submit" class="btn bg-color text-light btn-lg px-4">UNIRSE</button>
+              </div>
+
+              <div class="col-12 text-center wow fadeInUp" data-wow-delay=".8s">
+                <div class="form-check d-flex justify-content-center mb-2">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="updatesCheck" checked>
+                  <label class="form-check-label" for="updatesCheck">
+                    Mantenerme informado sobre otras noticias y ofertas exclusivas
+                  </label>
+                </div>
+                  <p class="small text-muted wow fadeInUp" data-wow-delay=".9s">
+                    <strong>Este summit está diseñado para quienes toman decisiones estratégicas y quieren liderar con innovación real.<br>
+                    No es solo teoría: descubrirás cómo líderes en Ecuador ya están transformando sus empresas con IA aplicada.</strong>
+                  </p>
+                <p class="small text-muted wow fadeInUp" data-wow-delay="1s">
+                  Nota: Puede optar por no participar en cualquier momento. Consulte nuestra <a href="#" class="text-decoration-underline">Política de Privacidad</a> y <a href="#" class="text-decoration-underline">Términos</a>.
+                </p>
+              </div>
+            </form>
+          </div>
+        </section>
+
+    </div>
+
+    <!-- footer begin -->
+    <footer class="text-light section-dark">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-12">
+                    <div class="d-lg-flex align-items-center justify-content-between text-center">
+                        <div>
+                            <h3 class="fs-20">Dirección</h3>
+                            Calle Numa Pompilio Llona S/N Ciudad del Río<br>
+                            Puerto Santa Ana - CP 090306
+                        </div>
+                        <div>
+                            <img src="images/logo.webp" class="w-150px" alt=""><br>
+                            <div class="social-icons mb-sm-30 mt-4">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+
+                        </div>
+                        <div>
+                            <h3 class="fs-20">Contacto</h3>
+                            +593 98 497 1076<br>
+                            consultas@aisummit.com
+                        </div>
+                    </div>
+                </div>                    
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        Copyright 2025 - Business IT 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/vendors.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/countdown-custom.js"></script>
+    <script src="js/custom-marquee.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+:root {
+  /* Verde lima institucional */
+  --primary-color: #A3C243;
+  --primary-color-rgb: 163, 194, 67;
+
+  /* Gris corporativo para contraste suave */
+  --secondary-color: #606161;
+  --secondary-color-rgb: 96, 97, 97;
+}
